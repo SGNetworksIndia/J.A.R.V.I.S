@@ -31,7 +31,7 @@ SCREENSHOTS_DIR = "C:\\Users\\sagni\\OneDrive\\Pictures\\Screenshots"
 WAKE_CMD = "jarvis"
 CITY = "Durgapur"
 USERNAME = "Sagnik"
-INIT_SEQ = False
+INIT_SEQ = True
 
 '''
 function to return random value from a list
