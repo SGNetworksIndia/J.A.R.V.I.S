@@ -169,10 +169,10 @@ def startMain():
 
 	# continually listen for wake up word
 	while True:
-		wake = startStt()
+		'''wake = startStt()
 		if WAKE_CMD in wake:
-			CMD = wake.replace(WAKE_CMD, "").strip()
-		# CMD = input()
+			CMD = wake.replace(WAKE_CMD, "").strip()'''
+		CMD = input()
 		matchCommand(CMD)
 
 
